@@ -1,56 +1,53 @@
-body{
-    background-color: aquamarine;
+body {
+  background-color: aquamarine;
 }
 
-.container{
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(4, 1fr) ;
-    gap: 1px;
-    padding: 5px;
+.container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 1px;
+  padding: 5px;
 }
 
-.container div{
-    border: 1px solid black;
-    padding: 10px;
-    margin: 2px;
-    background-color: rgb(34, 240, 11);
+.container div {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 2px;
+  background-color: rgb(34, 240, 11);
 }
-.grid2{
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(4, 1fr) ;
-    gap: 1px;
-    padding: top 5px;
-}
-
-.grid2 div{
-    border: 1px solid black;
-    padding: 10px;
-    margin: 2px;
-    background-color: rgb(200, 255, 0);
-
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 1px;
+  padding: top 5px;
 }
 
-.grid3{
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(4, 1fr) ;
-    gap: 1px;
-    padding: top 5px;
+.grid2 div {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 2px;
+  background-color: rgb(200, 255, 0);
 }
 
-.grid3 div{
-    border: 1px solid black;
-    padding: 10px;
-    margin: 2px;
-    background-color: rgb(255, 17, 0);
+.grid3 {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 1px;
+  padding: top 5px;
 }
 
-.header{
-    text-align: center;
-    background-color: rgb(3, 181, 181);
-    font-family: 'Press Start 2P', cursive;
-    
+.grid3 div {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 2px;
+  background-color: rgb(255, 17, 0);
 }
 
+.header {
+  text-align: center;
+  background-color: rgb(3, 181, 181);
+  font-family: "Press Start 2P", cursive;
+}
